@@ -1,9 +1,9 @@
 # Flight Research and Analytics Group
 
-**Authors: Annie Chan, Azucena Faus, Mohammad Mahmoudighaznavi**
-**Company Industry: Air Transportation**
-**Company Size: 3 (startup)**
-**GitHub Repository Link: https://github.com/fausa/Flight_Analytics**
+*Authors: Annie Chan, Azucena Faus, Mohammad Mahmoudighaznavi*
+*Company Industry: Air Transportation*
+*Company Size: 3 (startup)*
+*GitHub Repository Link: https://github.com/fausa/Flight_Analytics*
 
 ## Abstract:
 The airline industry plays an important and critical role in the world’s transportation sector. VArious factors such as weather conditions, air traffic control, airport operations, etc., have the capability to directly and indirectly affect airline services, leading to delayed flights. Understanding the effects of such issues in advance would prepare airline operators for potential reasons of flight delays. 
