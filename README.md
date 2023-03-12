@@ -18,7 +18,7 @@ Although travelers know the propensity for canceled flights during the winter mo
 We would like to provide customers with information regarding the likelihood of canceled flights due to weather, along with suggestions for which airlines would be best to go with, in case the likelihood is high. The airline recommendations would stem from customer satisfaction when they experienced canceled flights with those airlines, and the services they not only offer, but actually follow through with.
 
 ## Non-Goals:
-
+We are not looking to forecast weather - yet. Only if we can adequately predict canceled flights based on weather conditions. Once this concept is proven, a weather forecasting model can be used in conjunction with the canceled flights predictive model.
 
 ## Data Sources:
 One of the data sources comes from a relational database called Airline that contains US domestic flight information for January of 2016, along with information regarding canceled flights and whether those cancellations were due to weather. The second dataset was collected from Kaggle, which contains weather data for US airports for the years 2016-2021. This way, departure airport weather conditions can be added features for those flights that experienced cancellations due to weather. The final dataset contains customer review data for US airlines when flights were canceled. 
