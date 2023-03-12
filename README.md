@@ -1,3 +1,5 @@
+
+
 # Flight Research and Analytics Group
 
 **Authors: Annie Chan, Azucena Faus, Mohammad Mahmoudighaznavi**
@@ -33,5 +35,6 @@ One of the data sources comes from a relational database called Airline that con
 Some risks with the data are that it is only for one month, so any predictions would have to be for the following year, in the same month as weather conditions are seasonal. More data would have to be collected to further prove this concept. 
 
 The source data will be stored in an S3 bucket and will get there by way of SQL extraction of the necessary tables, and loading the comma-delimited files for weather and customer service.
+
 
 
