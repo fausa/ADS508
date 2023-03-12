@@ -1,8 +1,9 @@
 # Flight Research and Analytics Group
 
-** Authors: Annie Chan, Azucena Faus, Mohammad Mahmoudighaznavi
-** Company Industry: Air Transportation
-** Company Size: 3 (startup)
+**Authors: Annie Chan, Azucena Faus, Mohammad Mahmoudighaznavi
+Company Industry: Air Transportation
+Company Size: 3 (startup)
+**
 
 [GitHub Repository](https://github.com/fausa/Flight_Analytics)
 
