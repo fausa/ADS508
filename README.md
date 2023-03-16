@@ -12,7 +12,7 @@
 
 
 ## Abstract:
-The airline industry plays an important and critical role in the world’s transportation sector. VArious factors such as weather conditions, air traffic control, airport operations, etc., have the capability to directly and indirectly affect airline services, leading to delayed flights. Understanding the effects of such issues in advance would prepare airline operators for potential reasons of flight delays. 
+The airline industry plays an important and critical role in the world’s transportation sector. Various factors such as weather conditions, air traffic control, airport operations, etc., have the capability to directly and indirectly affect airline services, leading to delayed and canceled flights. Understanding the effects of such issues in advance can prepare customers and airline operators for potential reasons for flight cancellations.
 
 ## Problem Statement:
 Although travelers know the propensity for canceled flights during the winter months due to weather, it is difficult to know when that likelihood is highest and what flight to schedule if travel is nonetheless required. Knowing what airline to go with if there is a high likelihood of cancellation would be useful.
