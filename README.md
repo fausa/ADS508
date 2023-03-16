@@ -15,12 +15,18 @@
 The airline industry plays an important and critical role in the world’s transportation sector. Various factors such as weather conditions, air traffic control, airport operations, etc., have the capability to directly and indirectly affect airline services, leading to delayed and canceled flights. Understanding the effects of such issues in advance can prepare customers and airline operators for potential reasons for flight cancellations.
 
 ## Problem Statement:
-Although travelers know the propensity for canceled flights during the winter months due to weather, it is difficult to know when that likelihood is highest and what flight to schedule if travel is nonetheless required. Knowing what airline to go with if there is a high likelihood of cancellation would be useful.
+Although travelers know the propensity for canceled flights during the winter months due to weather, it is difficult to know when that likelihood is highest and what flight to schedule if travel is nonetheless required. Customer dissatisfaction is not only painful for the customer, but the airlines, airport flow, and other customers. Having some indication that a flight might be canceled and then knowing what airline to go with if there is a high likelihood of cancellation would be useful to set realistic expectations and hopefully increase customer satisfaction.
 
 ## Goals:
-We would like to provide customers with information regarding the likelihood of canceled flights due to weather, along with suggestions for which airlines would be best to go with, in case the likelihood is high. The airline recommendations would stem from customer satisfaction when they experienced canceled flights with those airlines, and the services they not only *offer*, but actually follow through with.
+The success of this project will contribute to the achievement of the following goals:
 
-Therefore, goals are: combine weather and flight data such that canceled flights due to weather have corresponding weather conditions that caused such cancellations. Another goal is to train a model to predict cancellations on the flight dataset with weather condition data and predict whether a flight has a high probability of being canceled based on the weather for that date/time. We would like to attain an accuracy/F1 score/Sensitivity of: .8, .8, and .7, respectively. 
+1. Combining weather and flight data to find connections and correlations between extreme weather conditions and canceled flights.
+
+2. Training a model to predict cancellations on the flight dataset with weather condition data and predict whether a flight has a high probability of being canceled based on the weather for that date/time. We would like to attain an accuracy/F1 score/Sensitivity of: 0.8, 0.8, and 0.7, respectively.
+
+3. Providing recommendations to airlines on customer service plans that should be offered to customers in the event of a flight cancellation.
+
+Ultimately, the goal of this project is to provide customers with information regarding the likelihood of canceled flights due to weather, along with suggestions for which airlines would be best to go with, in case the likelihood is high. The airline recommendations would stem from customer satisfaction when they experienced canceled flights with those airlines, and the services they not only offer, but actually follow through with. This will not only help customers planning out their future trips in case of uncontrollable circumstances, but also improve the reputation of multiple airline companies.
 
 ## Non-Goals:
 We are not looking to forecast weather - yet. Only if we can adequately predict canceled flights based on weather conditions. Once this concept is proven, a weather forecasting model can be used in conjunction with the canceled flights predictive model. We are also not trying to predict airline performance - just adding what is already known about customer satisfaction with specific airlines to provide an added benefit to the customer when the likelihood of a canceled flight is high. Finally, another non-goal is we are not interested in delving into predicting delayed flights, or flights that come from airports that do not have any weather data in our source datasets yet either. 
