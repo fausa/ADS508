@@ -48,7 +48,7 @@ One of the data sources comes from a relational database called Airline that con
 
 Some risks with the data are that it is only for one month, so any predictions would have to be for the following year, in the same month as weather conditions are seasonal. More data would have to be collected to further prove this concept and provide more accurate predictions, especially if weather trends change over time (climate change).
 
-The source data will be stored in an S3 bucket and will get there by way of SQL extraction of the necessary tables, and loading the comma-delimited files for weather:
+The source data is stored in a public S3 bucket and will get there by way of SQL extraction of the necessary tables, and loading the comma-delimited files for weather:
 
 s3://sagemaker-us-east-1-993410942383/content-project/airline_data/
 
