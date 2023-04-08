@@ -38,15 +38,15 @@ On the other hand, there are several non-goals that the team is not intentionall
 3. Predicting delayed flights - Flights given we have no reason code for delayed flights that might indicate they were delayed due to weather or other circumstances.
 
 ## Data Sources:
-One of the data sources comes from a relational database called Airline that contains US domestic flight information for January of 2016, along with information regarding canceled flights and whether those cancellations were due to weather. The second dataset was collected from Kaggle, which contains weather data for US airports for the years 2016-2021. This way, departure airport weather conditions can be added features for those flights that experienced cancellations due to weather. The final dataset contains customer review data for US airlines when flights were canceled.
+One of the data sources comes from a relational database called Airline that contains US domestic flight information for January of 2016, along with information regarding canceled flights and whether those cancellations were due to weather. The second dataset was collected from Kaggle, which contains weather data for US airports for the years 2016-2021. This way, departure airport weather conditions can be added features for those flights that experienced cancellations due to weather. The final dataset contains more detailed daily weather conditions for singular airports of interest that we will be focusing on, such as JFK. Having more detailed weather data might help in predicting canceled flights.
 
-https://relational.fit.cvut.cz/dataset/Airline
+[Flight Data](https://relational.fit.cvut.cz/dataset/Airline)
+[Airport Weather Data](https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events)
+[JFK airport Weather Detailed Data](https://www.weather.gov/wrh/Climate?wfo=okx)
 
-https://www.kaggle.com/datasets/sobhanmoosavi/us-weather-events
+Some risks with the data are that it is only for one month, so any predictions would have to be for the following year, in the same month as weather conditions are seasonal. More data would have to be collected to further prove this concept and provide more accurate predictions, especially if weather trends change over time (climate change).
 
-https://catalog.data.gov/dataset/airline-customer-service-commitments-for-cancellation
-
-Some risks with the data are that it is only for one month, so any predictions would have to be for the following year, in the same month as weather conditions are seasonal. More data would have to be collected to further prove this concept and provide more accurate predictions, especially if weather trends change over time (climate change). The source data will be stored in an S3 bucket and will get there by way of SQL extraction of the necessary tables, and loading the comma-delimited files for weather and customer service:
+The source data will be stored in an S3 bucket and will get there by way of SQL extraction of the necessary tables, and loading the comma-delimited files for weather:
 
 s3://sagemaker-us-east-1-993410942383/content-project/airline_data/
 
