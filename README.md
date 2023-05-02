@@ -10,7 +10,7 @@
 
 **[GitHub Repository](https://github.com/fausa/Flight_Analytics)**
 
-**[Tableau Flight Map Dashboard](https://public.tableau.com/app/profile/azucena5771/viz/airport_data_map/Dashboard1?publish=yes)
+**[Tableau Flight Map Dashboard](https://public.tableau.com/app/profile/azucena5771/viz/airport_data_map/Dashboard1?publish=yes)**
 
 
 ## Abstract:
