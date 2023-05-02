@@ -10,6 +10,8 @@
 
 **[GitHub Repository](https://github.com/fausa/Flight_Analytics)**
 
+**[Tableau Flight Map Dashboard](https://public.tableau.com/app/profile/azucena5771/viz/airport_data_map/Dashboard1?publish=yes)
+
 
 ## Abstract:
 The airline industry plays an important and critical role in the world’s transportation sector. Various factors such as weather conditions, air traffic control, airport operations, etc., have the capability to directly and indirectly affect airline services, leading to delayed and canceled flights. Understanding the effects of such issues in advance can prepare customers and airline operators for potential reasons for flight cancellations.
